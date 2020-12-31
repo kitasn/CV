@@ -28,11 +28,9 @@ function Header(props) {
                 <div className="close-nav-menu" onClick={onHandleClose}>&times;</div>
                 <div className="nav-menu-inner">
                     <ul>
-                        <li><a href="#" className="outer-shadow">Home</a></li>
-                        <li><a href="#" className="outer-shadow">About</a></li>
-                        <li><a href="#" className="outer-shadow">Services</a></li>
-                        <li><a href="#" className="outer-shadow">Portfolio</a></li>
-                        <li><a href="#" className="outer-shadow">Contact</a></li>
+                        <li><a href="index.html" className="outer-shadow">Home</a></li>
+                        <li><a href="about" className="outer-shadow">Portfolio</a></li>
+                        <li><a href="con" className="outer-shadow">Contact</a></li>
                     </ul>
                 </div>
 
